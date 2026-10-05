@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg-blizzardon" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#102840"/>
+      <stop offset="1" stop-color="#4ec6ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg-blizzardon)"/>
+  <circle cx="152" cy="123" r="6" fill="#d8f4ff" opacity=".55"/><circle cx="224" cy="79" r="3" fill="#d8f4ff" opacity=".55"/><circle cx="127" cy="76" r="7" fill="#d8f4ff" opacity=".55"/><circle cx="150" cy="96" r="3" fill="#d8f4ff" opacity=".55"/>
+  <path d="M90 300 C160 220, 240 360, 320 280 S430 200, 460 260" stroke="#4ec6ff" stroke-width="39" fill="none" stroke-linecap="round"/>
+        <ellipse cx="150" cy="268" rx="54" ry="48" fill="#d8f4ff"/>
+        <circle cx="134" cy="268" r="10" fill="#2a1810"/><circle cx="166" cy="268" r="10" fill="#2a1810"/>
+  <circle cx="131" cy="265" r="3" fill="#fff"/><circle cx="163" cy="265" r="3" fill="#fff"/>
+  <ellipse cx="150" cy="284" rx="6" ry="4" fill="#dc7882"/>
+  <path d="M138 294 Q150 304 162 294" stroke="#502818" stroke-width="3" fill="none"/>
+        <polygon points="430,250 470,268 430,286" fill="#d8f4ff"/>
+  <rect x="40" y="424" width="432" height="64" rx="16" fill="#0c0e1c" stroke="#4ec6ff" stroke-width="3"/>
+  <text x="256" y="466" text-anchor="middle" font-size="24" font-family="Hiragino Sans, sans-serif" font-weight="800" fill="#d8f4ff">ブリザードン</text>
+</svg>

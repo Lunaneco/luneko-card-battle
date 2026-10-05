@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1c1034"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <circle cx="210" cy="65" r="5" fill="#eee4ff" opacity=".7"/>
+  <circle cx="67" cy="54" r="3" fill="#eee4ff" opacity=".5"/>
+  <ellipse cx="256" cy="300" rx="93" ry="80" fill="#a78bfa"/>
+  <ellipse cx="256" cy="214" rx="67" ry="61" fill="#eee4ff"/>
+  <polygon points="234,214 216,165 171,230" fill="#a78bfa"/>
+  <polygon points="278,214 296,165 341,230" fill="#a78bfa"/>
+  <circle cx="236" cy="214" r="11" fill="#2a1810"/>
+  <circle cx="276" cy="214" r="11" fill="#2a1810"/>
+  <circle cx="233" cy="211" r="3.5" fill="#fff"/>
+  <circle cx="273" cy="211" r="3.5" fill="#fff"/>
+  <ellipse cx="256" cy="230" rx="6" ry="4" fill="#dc7882"/>
+  <path d="M242 240 Q256 252 270 240" stroke="#502818" stroke-width="3" fill="none"/>
+  <path d="M173 318 Q121.5 265 80 291" stroke="#a78bfa" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <path d="M256 260 L200 300 M256 260 L256 320 M256 260 L312 300" stroke="#eee4ff" stroke-width="6" fill="none"/>
+  <rect x="48" y="432" width="416" height="56" rx="16" fill="#0c0e1c" stroke="#a78bfa" stroke-width="3"/>
+  <text x="256" y="468" text-anchor="middle" font-size="26" font-family="Hiragino Sans, sans-serif" font-weight="800" fill="#eee4ff">シャドウエンド</text>
+</svg>

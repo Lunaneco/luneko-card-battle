@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg-golemnyan" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#382808"/>
+      <stop offset="1" stop-color="#fbbf24"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg-golemnyan)"/>
+  <circle cx="327" cy="69" r="6" fill="#fff3c4" opacity=".55"/><circle cx="199" cy="127" r="7" fill="#fff3c4" opacity=".55"/><circle cx="416" cy="93" r="6" fill="#fff3c4" opacity=".55"/><circle cx="299" cy="66" r="3" fill="#fff3c4" opacity=".55"/><circle cx="299" cy="52" r="3" fill="#fff3c4" opacity=".55"/><circle cx="102" cy="131" r="3" fill="#fff3c4" opacity=".55"/>
+  <ellipse cx="256" cy="280" rx="129" ry="113" fill="#fbbf24"/>
+        <ellipse cx="256" cy="280" rx="101" ry="87" fill="#382808"/>
+        <ellipse cx="256" cy="200" rx="58" ry="50" fill="#fff3c4"/>
+        <circle cx="240" cy="200" r="10" fill="#2a1810"/><circle cx="272" cy="200" r="10" fill="#2a1810"/>
+  <circle cx="237" cy="197" r="3" fill="#fff"/><circle cx="269" cy="197" r="3" fill="#fff"/>
+  <ellipse cx="256" cy="216" rx="6" ry="4" fill="#dc7882"/>
+  <path d="M244 226 Q256 236 268 226" stroke="#502818" stroke-width="3" fill="none"/>
+        <rect x="200" y="330" width="24" height="50" rx="8" fill="#fff3c4"/>
+        <rect x="288" y="330" width="24" height="50" rx="8" fill="#fff3c4"/>
+  <rect x="40" y="424" width="432" height="64" rx="16" fill="#0c0e1c" stroke="#fbbf24" stroke-width="3"/>
+  <text x="256" y="466" text-anchor="middle" font-size="24" font-family="Hiragino Sans, sans-serif" font-weight="800" fill="#fff3c4">ゴレムニャン</text>
+</svg>

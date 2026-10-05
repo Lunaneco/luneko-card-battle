@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg-buzzkit" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#10381c"/>
+      <stop offset="1" stop-color="#4ade80"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg-buzzkit)"/>
+  <circle cx="164" cy="68" r="5" fill="#d8ffe4" opacity=".55"/><circle cx="246" cy="204" r="7" fill="#d8ffe4" opacity=".55"/><circle cx="294" cy="187" r="4" fill="#d8ffe4" opacity=".55"/><circle cx="241" cy="116" r="4" fill="#d8ffe4" opacity=".55"/>
+  <ellipse cx="256" cy="300" rx="86" ry="102" fill="#4ade80"/>
+        <ellipse cx="256" cy="190" rx="72" ry="68" fill="#d8ffe4"/>
+        <polygon points="256,90 220,150 292,150" fill="#d8ffe4"/>
+        <rect x="200" y="150" width="112" height="18" rx="6" fill="#4ade80"/>
+        <circle cx="240" cy="196" r="10" fill="#2a1810"/><circle cx="272" cy="196" r="10" fill="#2a1810"/>
+  <circle cx="237" cy="193" r="3" fill="#fff"/><circle cx="269" cy="193" r="3" fill="#fff"/>
+  <ellipse cx="256" cy="212" rx="6" ry="4" fill="#dc7882"/>
+  <path d="M244 222 Q256 232 268 222" stroke="#502818" stroke-width="3" fill="none"/>
+  <rect x="40" y="424" width="432" height="64" rx="16" fill="#0c0e1c" stroke="#4ade80" stroke-width="3"/>
+  <text x="256" y="466" text-anchor="middle" font-size="24" font-family="Hiragino Sans, sans-serif" font-weight="800" fill="#d8ffe4">ハチニャ</text>
+</svg>

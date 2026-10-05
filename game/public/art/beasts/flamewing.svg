@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg-birdranyan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a1410"/>
+      <stop offset="1" stop-color="#ff5a3c"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg-birdranyan)"/>
+  <circle cx="407" cy="119" r="6" fill="#ffd0a0" opacity=".55"/><circle cx="265" cy="174" r="3" fill="#ffd0a0" opacity=".55"/><circle cx="221" cy="75" r="3" fill="#ffd0a0" opacity=".55"/>
+  <ellipse cx="256" cy="318" rx="103" ry="89" fill="#ff5a3c"/>
+        <ellipse cx="256" cy="214" rx="85" ry="77" fill="#ffd0a0"/>
+        <polygon points="214,200 188,146 236,188" fill="#ff5a3c"/><polygon points="298,200 324,146 276,188" fill="#ff5a3c"/>
+        <circle cx="240" cy="214" r="10" fill="#2a1810"/><circle cx="272" cy="214" r="10" fill="#2a1810"/>
+  <circle cx="237" cy="211" r="3" fill="#fff"/><circle cx="269" cy="211" r="3" fill="#fff"/>
+  <ellipse cx="256" cy="230" rx="6" ry="4" fill="#dc7882"/>
+  <path d="M244 240 Q256 250 268 240" stroke="#502818" stroke-width="3" fill="none"/>
+        <path d="M349 330 Q433 240 380 300" stroke="#ff5a3c" stroke-width="16" fill="none" stroke-linecap="round"/>
+  <rect x="40" y="424" width="432" height="64" rx="16" fill="#0c0e1c" stroke="#ff5a3c" stroke-width="3"/>
+  <text x="256" y="466" text-anchor="middle" font-size="24" font-family="Hiragino Sans, sans-serif" font-weight="800" fill="#ffd0a0">バードラニャン</text>
+</svg>

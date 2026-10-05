@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg-vinecat" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#10381c"/>
+      <stop offset="1" stop-color="#4ade80"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg-vinecat)"/>
+  <circle cx="115" cy="79" r="5" fill="#d8ffe4" opacity=".55"/><circle cx="205" cy="98" r="6" fill="#d8ffe4" opacity=".55"/><circle cx="266" cy="100" r="3" fill="#d8ffe4" opacity=".55"/>
+  <ellipse cx="250" cy="260" rx="128" ry="88" fill="#4ade80"/>
+        <polygon points="360,260 450,200 450,320" fill="#d8ffe4"/>
+        <ellipse cx="200" cy="240" rx="40" ry="36" fill="#d8ffe4"/>
+        <circle cx="190" cy="236" r="10" fill="#2a1810"/><circle cx="186" cy="232" r="3" fill="#fff"/>
+        <path d="M140 250 Q120 220 150 210" stroke="#d8ffe4" stroke-width="8" fill="none"/>
+  <rect x="40" y="424" width="432" height="64" rx="16" fill="#0c0e1c" stroke="#4ade80" stroke-width="3"/>
+  <text x="256" y="466" text-anchor="middle" font-size="24" font-family="Hiragino Sans, sans-serif" font-weight="800" fill="#d8ffe4">ツルニャン</text>
+</svg>

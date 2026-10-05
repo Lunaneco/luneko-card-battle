@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg-imperialnyan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a1410"/>
+      <stop offset="1" stop-color="#ff5a3c"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg-imperialnyan)"/>
+  <circle cx="159" cy="217" r="8" fill="#ffd0a0" opacity=".55"/><circle cx="361" cy="104" r="5" fill="#ffd0a0" opacity=".55"/><circle cx="208" cy="98" r="7" fill="#ffd0a0" opacity=".55"/><circle cx="273" cy="149" r="5" fill="#ffd0a0" opacity=".55"/><circle cx="350" cy="208" r="8" fill="#ffd0a0" opacity=".55"/><circle cx="126" cy="100" r="7" fill="#ffd0a0" opacity=".55"/>
+  <circle cx="256" cy="250" r="129" fill="#ff5a3c" stroke="#ffd0a0" stroke-width="10"/>
+        <circle cx="256" cy="250" r="89" fill="#3a1410"/>
+        <rect x="248" y="160" width="16" height="109" fill="#ffd0a0"/>
+        <rect x="256" y="242" width="99" height="12" fill="#ffd0a0"/>
+        <circle cx="256" cy="250" r="10" fill="#ff5a3c"/>
+        <rect x="120" y="360" width="272" height="36" rx="10" fill="#ffd0a0"/>
+  <rect x="40" y="424" width="432" height="64" rx="16" fill="#0c0e1c" stroke="#ff5a3c" stroke-width="3"/>
+  <text x="256" y="466" text-anchor="middle" font-size="24" font-family="Hiragino Sans, sans-serif" font-weight="800" fill="#ffd0a0">インペリアルニャン</text>
+</svg>

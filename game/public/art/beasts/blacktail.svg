@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg-blacktail" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1c1034"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg-blacktail)"/>
+  <circle cx="320" cy="145" r="7" fill="#eee4ff" opacity=".55"/><circle cx="260" cy="95" r="3" fill="#eee4ff" opacity=".55"/><circle cx="297" cy="137" r="3" fill="#eee4ff" opacity=".55"/>
+  <ellipse cx="256" cy="318" rx="90" ry="76" fill="#a78bfa"/>
+        <ellipse cx="256" cy="214" rx="72" ry="64" fill="#eee4ff"/>
+        <polygon points="214,200 188,146 236,188" fill="#a78bfa"/><polygon points="298,200 324,146 276,188" fill="#a78bfa"/>
+        <circle cx="240" cy="214" r="10" fill="#2a1810"/><circle cx="272" cy="214" r="10" fill="#2a1810"/>
+  <circle cx="237" cy="211" r="3" fill="#fff"/><circle cx="269" cy="211" r="3" fill="#fff"/>
+  <ellipse cx="256" cy="230" rx="6" ry="4" fill="#dc7882"/>
+  <path d="M244 240 Q256 250 268 240" stroke="#502818" stroke-width="3" fill="none"/>
+        <path d="M336 330 Q420 240 380 300" stroke="#a78bfa" stroke-width="16" fill="none" stroke-linecap="round"/>
+  <rect x="40" y="424" width="432" height="64" rx="16" fill="#0c0e1c" stroke="#a78bfa" stroke-width="3"/>
+  <text x="256" y="466" text-anchor="middle" font-size="24" font-family="Hiragino Sans, sans-serif" font-weight="800" fill="#eee4ff">ブラックテイル</text>
+</svg>

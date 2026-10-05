@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg-kunestorm" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#10381c"/>
+      <stop offset="1" stop-color="#4ade80"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg-kunestorm)"/>
+  <circle cx="191" cy="120" r="3" fill="#d8ffe4" opacity=".55"/><circle cx="301" cy="87" r="8" fill="#d8ffe4" opacity=".55"/><circle cx="194" cy="142" r="4" fill="#d8ffe4" opacity=".55"/><circle cx="255" cy="210" r="6" fill="#d8ffe4" opacity=".55"/>
+  <path d="M80 220 Q180 80 250 220" fill="#10381c"/>
+        <path d="M432 220 Q332 80 262 220" fill="#10381c"/>
+        <ellipse cx="256" cy="270" rx="70" ry="80" fill="#4ade80"/>
+        <ellipse cx="256" cy="210" rx="58" ry="50" fill="#d8ffe4"/>
+        <circle cx="240" cy="210" r="10" fill="#2a1810"/><circle cx="272" cy="210" r="10" fill="#2a1810"/>
+  <circle cx="237" cy="207" r="3" fill="#fff"/><circle cx="269" cy="207" r="3" fill="#fff"/>
+  <ellipse cx="256" cy="226" rx="6" ry="4" fill="#dc7882"/>
+  <path d="M244 236 Q256 246 268 236" stroke="#502818" stroke-width="3" fill="none"/>
+        <ellipse cx="256" cy="360" rx="8" ry="24" fill="#4ade80"/>
+  <rect x="40" y="424" width="432" height="64" rx="16" fill="#0c0e1c" stroke="#4ade80" stroke-width="3"/>
+  <text x="256" y="466" text-anchor="middle" font-size="24" font-family="Hiragino Sans, sans-serif" font-weight="800" fill="#d8ffe4">クネストーム</text>
+</svg>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg-seadranyan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#102840"/>
+      <stop offset="1" stop-color="#4ec6ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg-seadranyan)"/>
+  <circle cx="380" cy="116" r="8" fill="#d8f4ff" opacity=".55"/><circle cx="336" cy="151" r="3" fill="#d8f4ff" opacity=".55"/><circle cx="335" cy="72" r="3" fill="#d8f4ff" opacity=".55"/><circle cx="278" cy="163" r="5" fill="#d8f4ff" opacity=".55"/>
+  <ellipse cx="180" cy="250" rx="70" ry="110" fill="#d8f4ff" opacity=".85"/>
+        <ellipse cx="332" cy="250" rx="70" ry="110" fill="#d8f4ff" opacity=".85"/>
+        <ellipse cx="256" cy="300" rx="101" ry="93" fill="#4ec6ff"/>
+        <ellipse cx="256" cy="210" rx="85" ry="79" fill="#d8f4ff"/>
+        <circle cx="240" cy="210" r="10" fill="#2a1810"/><circle cx="272" cy="210" r="10" fill="#2a1810"/>
+  <circle cx="237" cy="207" r="3" fill="#fff"/><circle cx="269" cy="207" r="3" fill="#fff"/>
+  <ellipse cx="256" cy="226" rx="6" ry="4" fill="#dc7882"/>
+  <path d="M244 236 Q256 246 268 236" stroke="#502818" stroke-width="3" fill="none"/>
+  <rect x="40" y="424" width="432" height="64" rx="16" fill="#0c0e1c" stroke="#4ec6ff" stroke-width="3"/>
+  <text x="256" y="466" text-anchor="middle" font-size="24" font-family="Hiragino Sans, sans-serif" font-weight="800" fill="#d8f4ff">シードラニャン</text>
+</svg>

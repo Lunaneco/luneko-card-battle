@@ -1,0 +1,13 @@
+{
+  "name": "ルナネコ式 月牌バトル",
+  "short_name": "LUNNEKO",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0b1020",
+  "theme_color": "#0b1020",
+  "orientation": "portrait",
+  "icons": [
+    { "src": "art/partners/moonember.jpg", "sizes": "512x512", "type": "image/jpeg", "purpose": "any" }
+  ]
+}
