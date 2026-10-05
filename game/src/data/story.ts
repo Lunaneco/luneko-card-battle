@@ -335,9 +335,9 @@ export const STORY: StoryNode[] = [
     city: 'beginner',
     title: '月の管理人ニャンルナ',
     before: [
-      { speaker: 'ニャンルナ', face: 'nyanluna', mood: 'smile', text: 'あなたが新しい月使いね。わたしはニャンルナ。このルナネットの管理人。ルナネットは、わたしの庭なの。' },
+      { speaker: 'ニャンルナ', face: 'nyanluna', mood: 'smile', text: '初勝利、見てたわ。わたしはニャンルナ。みんなが遊ぶルナネットを守る管理人よ。' },
       { speaker: 'ニャンルナ', face: 'nyanluna', mood: 'stern', text: '時間がないから、はっきり言うわ。いま、ネットが「ゼロ・ウイルス」に食われてる。' },
-      { speaker: 'ニャンルナ', face: 'nyanluna', text: 'ウイルスに取りつかれたカードは暴走して、持ち主の心まで熱くしすぎてしまうの。' },
+      { speaker: 'ニャンルナ', face: 'nyanluna', text: 'ウイルスはカードも持ち主も暴走させる。でも、バトルで負かせば、カードから追い出せるわ。' },
       { speaker: 'ニャンルナ', face: 'nyanluna', mood: 'stern', text: '止められるのは、カードで勝てる月使いだけ。……あなたにその力があるか、見せてもらうわ！' },
     ],
     battle: {
@@ -376,7 +376,7 @@ export const STORY: StoryNode[] = [
     after: [
       { speaker: 'ニャンルナ', face: 'nyanluna', mood: 'smile', text: '合格よ！ 今日からあなたは月使い。スプラウトバッジを預けるわ！' },
       { speaker: 'ニャンルナ', face: 'nyanluna', mood: 'smile', text: '引き直さず無敗で勝てたら、秘蔵の「庭師の鋏」もあなたのものよ！' },
-      { speaker: 'ニャンルナ', face: 'nyanluna', text: 'バッジを8つ集めれば、ゼロ・ウイルスの出どころ……クレフトタワーの扉が開く。' },
+      { speaker: 'ニャンルナ', face: 'nyanluna', text: 'コートバッジは、塔を開ける鍵でもあるの。8つ集めて、ウイルスの出どころ、クレフトタワーを目指しなさい！' },
       { speaker: 'ニャンルナ', face: 'nyanluna', mood: 'stern', text: 'それから月殻（げっかく）を探しなさい。相棒をもっと強くする、月のかけらよ。最初の月殻は、次の街アッシュコートにあるはず！' },
     ],
   },
@@ -482,7 +482,7 @@ export const STORY: StoryNode[] = [
     after: [
       { speaker: 'ツキネコ', face: 'tsukineko', mood: 'sad', text: '……負けた。くやしい。すっごく、くやしい！' },
       { speaker: 'ツキネコ', face: 'tsukineko', mood: 'smile', text: 'でも、あんたの手、まっすぐで嫌いじゃない。雷月の殻、持っていきな。次は負けないから！' },
-      { speaker: 'ツキネコ', face: 'tsukineko', text: 'ブルームコートで待ってる。……花はきれいだけど、トゲには気をつけなよ。' },
+      { speaker: 'ツキネコ', face: 'tsukineko', text: 'わたしは先に、ゼロヒトの足跡を追う。あんたはブルームコートへ。……花のトゲには気をつけなよ。' },
     ],
   },
   {
@@ -492,6 +492,7 @@ export const STORY: StoryNode[] = [
     before: [
       { speaker: 'ニードスウィング', face: 'needswing', text: '待てない待てない待てない！ 考えるヒマがあったら、進化しちゃえばいいんだよ！' },
       { speaker: 'ニードスウィング', face: 'needswing', text: 'ウイルスのおかげで、オレ、めっちゃ速くなったんだ！ 止まれないけど！ あははは！' },
+      { speaker: 'あなた', face: 'player', text: '花壇までめちゃくちゃだ！ 止まれないなら、こっちが止める！' },
     ],
     battle: {
       id: 'bloom-1',
@@ -528,7 +529,7 @@ export const STORY: StoryNode[] = [
       unlockShell: 'bloomshell',
     },
     after: [
-      { speaker: 'ニードスウィング', face: 'needswing', mood: 'tired', text: 'はぁ、はぁ……。速いだけじゃ、勝てないんだな……。' },
+      { speaker: 'ニードスウィング', face: 'needswing', mood: 'tired', text: 'はぁ、はぁ……やっと止まれた。踏み荒らした花壇、オレが植え直すよ。' },
       { speaker: 'ニードスウィング', face: 'needswing', mood: 'tired', text: 'お礼にウィンドフェザーと花月の殻をあげる。速さは、使う人しだいだよ！' },
     ],
   },
@@ -538,7 +539,7 @@ export const STORY: StoryNode[] = [
     title: 'トゲの女王ソーンブルーム',
     before: [
       { speaker: 'ソーンブルーム', face: 'thornbloom', text: 'ようこそ、ブルームコートへ。わたしはソーンブルーム、この街のコートマスターよ。' },
-      { speaker: 'ソーンブルーム', face: 'thornbloom', text: 'ねえ、ゼロヒト様の仲間にならない？ ルールなんて全部消して、好きなだけ勝てる世界……すてきでしょう？' },
+      { speaker: 'ソーンブルーム', face: 'thornbloom', text: 'ねえ、ゼロヒト様の仲間にならない？ 負けた記録も、あの方が消してくれる。ずっと勝者でいられるのよ。' },
       { speaker: 'あなた', face: 'player', text: 'ことわる！ ルールがあるから、バトルは熱いんだ！' },
     ],
     battle: {
@@ -572,7 +573,7 @@ export const STORY: StoryNode[] = [
       unlockShell: 'lampshell',
     },
     after: [
-      { speaker: 'ソーンブルーム', face: 'thornbloom', mood: 'sad', text: '負けたわ。……本当は、ゼロヒト様の言葉が少しだけ怖かったの。' },
+      { speaker: 'ソーンブルーム', face: 'thornbloom', mood: 'sad', text: '……負けた。でも、ここにいられるのね。負けるのが怖くて、あの人の言葉に逃げてたわ。' },
       { speaker: 'ソーンブルーム', face: 'thornbloom', mood: 'sad', text: 'ブルームバッジと灯月の殻よ。わたしが街の子を誘ったことは、なかったことにはならない。みんなには、自分で謝るわ。' },
       { speaker: 'ニャンルナ', face: 'nyanluna', mood: 'tired', text: '……彼女の弱さ、昔のわたしに少し似てる。でも、あなたが代わりに許してあげる必要はないわ。行きましょう。' },
     ],
@@ -636,6 +637,7 @@ export const STORY: StoryNode[] = [
     before: [
       { speaker: 'タイドホエール', face: 'tidewhale', mood: 'smile', text: 'わっはっは！ 来たな、ちび月使い！ わしはタイドホエール、フロストコートの主じゃ！' },
       { speaker: 'タイドホエール', face: 'tidewhale', text: 'ゼロヒトの手は、何度も同じ波を打ってくる。同じ手のくり返しじゃ。覚えておけ、きっと役に立つ！' },
+      { speaker: 'タイドホエール', face: 'tidewhale', text: 'まずは、わしの波を読み切れ！ 勝てたらフロストバッジを託そう。塔へ行くための試験じゃ！' },
     ],
     battle: {
       id: 'ice-2',
@@ -681,6 +683,7 @@ export const STORY: StoryNode[] = [
     before: [
       { speaker: 'スクリューキット', face: 'screwkit', mood: 'smile', text: 'ねじれ〜！ ようこそギアコートへ！ ボクはスクリューキット、発明の天才さ！' },
       { speaker: 'スクリューキット', face: 'screwkit', text: '珍種のカードは数字が小さい。だからHPをぐにゃっとそろえて、勝負をひっくり返すんだ！' },
+      { speaker: 'スクリューキット', face: 'screwkit', mood: 'smile', text: 'この発明、キミのデックで試してよ！ 勝てたら月殻をあげる！' },
     ],
     battle: {
       id: 'junk-1',
@@ -724,8 +727,9 @@ export const STORY: StoryNode[] = [
     title: '工房の親方ギアスミス',
     before: [
       { speaker: 'ギアスミス', face: 'gearsmith', text: 'おう、来たか。ここは工房だ。歯車は、噛み合う相手を間違えると粉々になる。' },
-      { speaker: 'ギアスミス', face: 'gearsmith', text: 'ゼロヒトは昔、ここで一緒に歯車を作った仲間だった。……あいつは、ルールを作るのに飽きちまったんだ。' },
-      { speaker: 'ニャンルナ', face: 'nyanluna', mood: 'stern', text: '……知ってるわ。わたしも一緒に、ルールを書いたもの。' },
+      { speaker: 'ギアスミス', face: 'gearsmith', text: 'ゼロヒトも昔は、この工房で仲間と道具を作ってた。ニャンルナ、お前のこともよく話してたな。' },
+      { speaker: 'ニャンルナ', face: 'nyanluna', mood: 'tired', text: '……ええ。あの頃は、みんなが遊べる場所を作りたかったの。' },
+      { speaker: 'ギアスミス', face: 'gearsmith', text: 'その場所を守れる腕か、俺が試す！ この勝負に勝てば、ギアバッジはお前のものだ！' },
     ],
     battle: {
       id: 'junk-2',
@@ -776,6 +780,7 @@ export const STORY: StoryNode[] = [
     before: [
       { speaker: 'ナイトスチュワード', face: 'nightsteward', text: 'ようこそ、シェードコートへ。わたくしはナイトスチュワード。この闇の街の執事でございます。' },
       { speaker: 'ナイトスチュワード', face: 'nightsteward', mood: 'tired', text: 'ツキネコお嬢様が、ひとりでゼロヒトを追っておられます。……あの方は、無理をしすぎる。' },
+      { speaker: 'ナイトスチュワード', face: 'nightsteward', text: '一緒に戦える方か、腕を拝見します。わたくしに勝てたら、シェードバッジをお渡ししましょう。' },
     ],
     battle: {
       id: 'dark-1',
@@ -823,6 +828,7 @@ export const STORY: StoryNode[] = [
     before: [
       { speaker: 'ツキネコ', face: 'tsukineko', text: 'また会ったね。……執事から聞いた？ わたしの相棒のこと。' },
       { speaker: 'ツキネコ', face: 'tsukineko', mood: 'sad', text: 'そう。ゼロヒトに消された。カードの名前の欄は、ずっと空欄のまま。だから、わたしがあいつを倒す。' },
+      { speaker: 'あなた', face: 'player', text: 'ひとりで行かないで。いっしょに倒そう！' },
       { speaker: 'ツキネコ', face: 'tsukineko', mood: 'smirk', text: '止めたいなら、本気のわたしに勝ってからにしな！ 手加減なしの闇月札、くらいな！' },
     ],
     battle: {
@@ -864,8 +870,9 @@ export const STORY: StoryNode[] = [
       unlockShell: 'cleftshell',
     },
     after: [
-      { speaker: 'ツキネコ', face: 'tsukineko', mood: 'sad', text: '……負けた。ひとりで勝てないなら、ひとりで行くのはただの意地っぱりだね。' },
-      { speaker: 'ツキネコ', face: 'tsukineko', mood: 'smile', text: '欠け月の殻。欠けてても光る月。……いっしょに行こう、相棒。ゼロヒトをぶっ飛ばしに！' },
+      { speaker: 'ツキネコ', face: 'tsukineko', mood: 'sad', text: '……負けた。あの空欄を見るたび、ひとりでも早く倒さなきゃって、焦ってた。' },
+      { speaker: 'あなた', face: 'player', text: 'あんたの本気、ちゃんと届いたよ。今度は、その力をいっしょに使おう！' },
+      { speaker: 'ツキネコ', face: 'tsukineko', mood: 'smile', text: 'これ、欠け月の殻。あんたに預ける。……いっしょに行こう、相棒。ゼロヒトをぶっ飛ばしに！' },
     ],
   },
   {
@@ -875,6 +882,7 @@ export const STORY: StoryNode[] = [
     before: [
       { speaker: 'ファイアフライテイル', face: 'fireflytail', text: 'ニャン！ ランプコートの灯台係、ファイアフライテイルだよ！' },
       { speaker: 'ファイアフライテイル', face: 'fireflytail', text: 'ウイルスで街の灯りが消えかけてるの。わたしの灯は、闇を消すためじゃなくて、迷子を見つけるための灯なんだ。' },
+      { speaker: 'ファイアフライテイル', face: 'fireflytail', text: '灯を守る仲間になってくれる？ まずはバトルで力を見せて！ 勝てたらランプバッジをあげる！' },
     ],
     battle: {
       id: 'sky-1',
@@ -882,7 +890,7 @@ export const STORY: StoryNode[] = [
       opponentFace: 'fireflytail',
       spec: 'nature',
       deckTrait: '灯りの自然！ 先制と回復でねばってくる！',
-      taunt: 'この灯、消させないよ！',
+      taunt: 'この灯を守る力、見せてよ！',
       winLine: 'ニャン！ 灯りがもっと明るくなった！',
       loseLine: 'まだ暗いね。もう一回、照らしてあげる！',
       deck: d(
@@ -921,8 +929,8 @@ export const STORY: StoryNode[] = [
     city: 'sky',
     title: '最終試験！ ニャンルナの本気',
     before: [
-      { speaker: 'ニャンルナ', face: 'nyanluna', mood: 'stern', text: 'ここまで来たなら、話すわ。ゼロヒトとわたしは、昔いっしょにこのルールを作ったの。' },
-      { speaker: 'ニャンルナ', face: 'nyanluna', mood: 'tired', text: 'あいつは「もう飽きた」と言って、全部消そうとしている。……止められなかったのは、わたしの責任よ。' },
+      { speaker: 'ニャンルナ', face: 'nyanluna', mood: 'stern', text: '工房で話しきれなかったことよ。ゼロヒトとわたしは、いっしょにルナネットのルールを作ったの。' },
+      { speaker: 'ニャンルナ', face: 'nyanluna', mood: 'tired', text: 'でも、あいつは「もう飽きた」と、わたしの鍵まで奪った。ひとりで止めようとして、止められなかった。' },
       { speaker: 'ニャンルナ', face: 'nyanluna', mood: 'stern', text: 'だから最後の試験。わたしの本気のデックに勝てなければ、塔へは行かせない！' },
     ],
     battle: {
@@ -958,7 +966,8 @@ export const STORY: StoryNode[] = [
       unlockShell: 'cleftshell',
     },
     after: [
-      { speaker: 'ニャンルナ', face: 'nyanluna', mood: 'smile', text: '合格よ。ツキネコから預かった欠け月の殻、あなたが持ってなさい。それと、わたしの切り札「月跳び」も。' },
+      { speaker: 'ニャンルナ', face: 'nyanluna', mood: 'smile', text: '合格よ！ わたしの切り札「月跳び」も持っていきなさい。ツキネコの欠け月の殻と、あなたの力になるわ！' },
+      { speaker: 'ニャンルナ', face: 'nyanluna', mood: 'smile', text: '今度は、ひとりで抱え込まない。わたしも行くわ。みんなのルナネットを取り戻しましょう！' },
     ],
   },
   {
@@ -1006,6 +1015,7 @@ export const STORY: StoryNode[] = [
     after: [
       { speaker: 'スロープドレイク', face: 'slopedrake', text: 'スロープバッジだ。これで8つ……塔の扉は開く。雷月の殻とインフェルノックスも持っていけ。' },
       { speaker: 'スロープドレイク', face: 'slopedrake', text: '塔の上では、ゼロヒトが同じ手を何度も打ってくる。……読み切れ。' },
+      { speaker: 'ツキネコ', face: 'tsukineko', text: '追ってる間に、あいつのバトル記録を集めた。同じ手……待って。並び方を確かめる！' },
     ],
   },
   {
@@ -1066,10 +1076,11 @@ export const STORY: StoryNode[] = [
     before: [
       { speaker: 'ゼロヒト', face: 'zero', mood: 'smirk', text: 'ゼロヒトだ。このルナネットのルールを作った、もう一人の管理人さ。' },
       { speaker: 'ゼロヒト', face: 'zero', text: 'ルールを作って、遊んで、全部わかっちゃった。だから飽きた。飽きたものは、消す。それだけ。' },
+      { speaker: 'ゼロヒト', face: 'zero', mood: 'smirk', text: 'この勝負できみが勝てたら、奪った鍵は返すよ。きみに、それができるならね。' },
       { speaker: 'ニャンルナ', face: 'nyanluna', mood: 'stern', text: 'ふざけないで！ ここには、カードを大事にしてる子たちがいるの！ あなたのおもちゃじゃない！' },
       { speaker: 'ゼロヒト', face: 'zero', mood: 'smirk', text: '山札を並べ、手札を入れ替え、相棒を底に沈める。何度でも、同じ手で勝つ。見せてあげるよ。' },
-      { speaker: 'ツキネコ', face: 'tsukineko', text: '聞いて！ あいつの攻撃は ○→○→×→△→○ のくり返し！ 同じ手なら、読み切れる！' },
-      { speaker: 'あなた', face: 'player', text: 'いくぞ、相棒！ 読み切って、ぶっ飛ばす！！' },
+      { speaker: 'ツキネコ', face: 'tsukineko', text: '記録と同じだ！ あいつの攻撃は ○→○→×→△→○ のくり返し！ 同じ手なら、読み切れる！' },
+      { speaker: 'あなた', face: 'player', text: 'ツキネコ、助かった！ いくぞ、相棒！ みんながつないだこの手で、ぶっ飛ばす！！' },
     ],
     battle: {
       id: 'tower-zero',
@@ -1114,12 +1125,14 @@ export const STORY: StoryNode[] = [
     },
     after: [
       { speaker: 'ゼロヒト', face: 'zero', mood: 'cracked', text: '……負けた。同じ手で、負けた。' },
-      { speaker: 'ゼロヒト', face: 'zero', mood: 'cracked', text: '管理人の権限は返すよ。……ルールの中で負けるのって、こんなに悔しいんだね。' },
+      { speaker: 'ゼロヒト', face: 'zero', mood: 'cracked', text: '管理人の鍵は返す。山札までいじったのに。……勝てないと、こんなに悔しいんだね。' },
       { speaker: 'ニャンルナ', face: 'nyanluna', mood: 'stern', text: '鍵は返してもらう。でも、あなたが消したデータも、壊した信頼も、すぐには戻らない。これから、ずっと直していくのよ。' },
+      { speaker: 'ニャンルナ', face: 'nyanluna', mood: 'smile', text: '……灯台から通信よ。灯りが戻って、迷子たちが家に帰ってる。工房も、コートの修理を始めたわ！' },
       { speaker: 'ツキネコ', face: 'tsukineko', mood: 'sad', text: '……相棒の欄は、空欄のまま。戻らないものも、ある。' },
       { speaker: 'ツキネコ', face: 'tsukineko', mood: 'smile', text: 'でもさ、空欄でもわたしは強い。それを証明できたのは、あんたのおかげ。ありがと、相棒！' },
       { speaker: 'モチニャフェ', face: 'mochi', mood: 'smile', text: 'ふぇ〜' },
-      { speaker: 'ニャンルナ', face: 'nyanluna', mood: 'smile', text: 'ルナネットを取り戻したわ！ まだ強い月使いが隠れてる。相棒と、挑みに行きなさい！' },
+      { speaker: 'あなた', face: 'player', text: 'やったぞ、相棒！ ルナネットを取り戻した！！' },
+      { speaker: 'ニャンルナ', face: 'nyanluna', mood: 'smile', text: 'あなたたちが守ったバトルは、まだ続くわ。まずは胸を張って帰りましょう。みんなが待ってる！' },
     ],
   },
   {
@@ -1127,8 +1140,8 @@ export const STORY: StoryNode[] = [
     city: 'tower',
     title: 'ライバル再戦！ 空欄の刃',
     before: [
-      { speaker: 'ツキネコ', face: 'tsukineko', text: 'ゼロヒトは、ネットの修理に行った。わたしは残る。……で、ヒマなんだよね。' },
-      { speaker: 'ツキネコ', face: 'tsukineko', mood: 'smile', text: '空欄のまま、最強の月使いとガチでやりたい。いいでしょ？' },
+      { speaker: 'ツキネコ', face: 'tsukineko', text: 'ゼロヒトは、ニャンルナに見張られて修理中。……わたしのカードは、今日も空欄のまま。' },
+      { speaker: 'ツキネコ', face: 'tsukineko', mood: 'smile', text: 'でも、強くなる理由まで消えてない。今度は自分のために、あんたとガチでやりたい！' },
     ],
     battle: {
       id: 'extra-tsuki',
@@ -1166,7 +1179,7 @@ export const STORY: StoryNode[] = [
     },
     after: [
       { speaker: 'ツキネコ', face: 'tsukineko', mood: 'sad', text: '……また負けた！ ブランクファングは、空欄の名前の刃。引き直さず無敗なら、あんたに預ける！' },
-      { speaker: 'ツキネコ', face: 'tsukineko', mood: 'smile', text: '澄み月の殻もつけといてあげる。アリーナはいつでも開いてるよ。オンラインの部屋で待ってる！' },
+      { speaker: 'ツキネコ', face: 'tsukineko', mood: 'smile', text: '澄み月の殻もつけといてあげる。またここで勝負しよう。次は負けないからね、相棒！' },
     ],
   },
   {
@@ -1258,7 +1271,7 @@ export const STORY: StoryNode[] = [
     city: 'junk',
     title: '糸なし人形スレッドレス',
     before: [
-      { speaker: 'スレッドレス', face: 'threadless', mood: 'smirk', text: '糸がないとウソがつけない。だから、カードでウソをつくのさ。見破れるかな？' },
+      { speaker: 'スレッドレス', face: 'threadless', mood: 'smirk', text: 'ボクに操り糸はない。次の手は、自分で選ぶ。さあ、きみには見破れるかな？' },
     ],
     battle: {
       id: 'extra-pino',
@@ -1301,7 +1314,7 @@ export const STORY: StoryNode[] = [
     city: 'sky',
     title: '空の羽根スカイフェザー',
     before: [
-      { speaker: 'スカイフェザー', face: 'skyfeather', text: 'ファイアフライテイルの灯は、わたしの道しるべ。その灯の上を、わたしは飛ぶ！' },
+      { speaker: 'スカイフェザー', face: 'skyfeather', text: '灯台の灯りが戻った！ その灯を守ったきみと、空のバトルがしたい。わたしの速さ、見せてあげる！' },
     ],
     battle: {
       id: 'extra-sera',
@@ -1310,7 +1323,7 @@ export const STORY: StoryNode[] = [
       spec: 'nature',
       deckTrait: '空の自然！ 聖月札と月跳びで舞い上がる！',
       taunt: '灯の上を、わたしは飛ぶ！',
-      winLine: '羽根が折れた……でも、灯はまだついてる。',
+      winLine: '飛び負けた……！ でも、灯はまだついてる。',
       loseLine: '空の上までは、届かなかったね。',
       deck: d(
         'late',
@@ -1333,7 +1346,7 @@ export const STORY: StoryNode[] = [
       xp: 80,
     },
     after: [
-      { speaker: 'スカイフェザー', face: 'skyfeather', text: '羽根は折れた……でも灯は、まだついてる。無敗で勝てたら、聖月札もきみに！' },
+      { speaker: 'スカイフェザー', face: 'skyfeather', text: '飛び負けた……！ 次は追いこすよ！ 無敗で勝てたら、聖月札もきみに！' },
     ],
   },
   {
